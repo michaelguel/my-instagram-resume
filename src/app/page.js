@@ -149,8 +149,7 @@ export default function HomePage() {
         </div>
         <h1 className="text-2xl font-bold mt-2">Michael Guel</h1>
         <p className="text-gray-400">Creative Dev | Data Enthusiast | 🤖 AI Explorer</p>
-        <p className="text-gray-400">Website Under Construction***</p>
-        <p className="text-gray-400">Website Under Construction***</p>
+        <p className="text-gray-400">Website Under Construction Updates Hourly***</p>
         <a
           href="/MichaelGuelResumeSpring2025.pdf"
           target="_blank"
