@@ -141,7 +141,7 @@ export default function HomePage() {
       <header className="w-full max-w-3xl flex flex-col items-center text-center relative">
         <div className="relative w-[200px] h-[200px]">
           <Image
-            src="/michael_04.jpg"
+            src="/Michael_04.jpg"
             alt="Profile photo of Michael Guel"
             fill
             className="object-contain rounded-full border-4 border-blue-500"
