@@ -276,21 +276,6 @@ export default function HomePage() {
           </section>
         )}
 
-        {/* WORK EXPERIENCE TAB
-        {activeTab === "Work Experience" && (
-          <section className="text-left text-gray-300 space-y-4">
-            {workExperiences.map((job, index) => (
-              <article key={index} className="border-b border-gray-700 pb-4">
-                <h3 className="text-xl font-bold text-white">{job.company}</h3>
-                <p className="text-sm text-blue-400">
-                  {job.role} | {job.duration}
-                </p>
-                <p className="text-gray-400 mt-1">{job.description}</p>
-              </article>
-            ))}
-          </section>
-        )} */}
-
         {/* WORK EXPERIENCE TAB */}
         {activeTab === "Work Experience" && (
           <section className="text-left text-gray-300 space-y-4">
