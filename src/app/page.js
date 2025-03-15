@@ -151,6 +151,14 @@ export default function HomePage() {
         <p className="text-gray-400">Creative Dev | Data Enthusiast | 🤖 AI Explorer</p>
         <p className="text-gray-400">Website Under Construction Updates Hourly***</p>
         <a
+          href="https://github.com/michaelguel/Projects" // Replace with your actual GitHub link
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:underline mt-2"
+        >
+          🔗 View My GitHub
+        </a>
+        <a
           href="/MichaelGuelResumeSpring2025.pdf"
           target="_blank"
           rel="noopener noreferrer"
