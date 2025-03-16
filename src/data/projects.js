@@ -59,7 +59,7 @@ export const projects = [
     image: "/projects/project2.png",
     overview: "This project is for emotion recogntion, guided by HSEMotion framework. We successfully trained emoition, age and ethnicity models to allow for real time prediction. I developed a SWIFT based iOS application to house the models and allow for real time on device predictions.",
     additionalImages: [],
-    videoUrl: null,
+    videoUrl: "https://www.youtube.com/embed/uz1TlruItE0",
     codeSnippets: [],
     technologies: ["Python", "FastAPI"],
   },

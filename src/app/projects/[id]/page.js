@@ -32,9 +32,9 @@ export default function ProjectDetailsPage({ params }) {
         <Image
           src={project.image}
           alt={project.title}
-          width={800}
-          height={400}
-          className="object-cover w-full max-w-2xl h-auto rounded"
+          width={300} 
+          height={175}
+          className="object-contain w-full max-w-md h-[300px] rounded-lg shadow-md"
         />
       </div>
 
@@ -56,19 +56,21 @@ export default function ProjectDetailsPage({ params }) {
 
       {/* Embed video */}
       {project.videoUrl && (
-        <div className="mb-6">
-          <div className="aspect-w-16 aspect-h-9">
+        <div className="mb-6 flex justify-center">
+          <div className="relative w-full max-w-md h-[250px]">
             <iframe
-              src={project.videoUrl}
+              src={project.videoUrl.replace("youtube.com/shorts/", "youtube.com/embed/")}
               title="Project Demo Video"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-              className="w-full h-full"
+              className="absolute top-0 left-0 w-full h-full rounded-lg"
             />
           </div>
         </div>
       )}
+
+
 
       {/* Code snippets */}
       {project.codeSnippets?.length > 0 && (
