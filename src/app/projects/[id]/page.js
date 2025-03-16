@@ -40,14 +40,14 @@ export default function ProjectDetailsPage({ params }) {
 
       {/* Additional images, if any */}
       {project.additionalImages?.length > 0 && (
-        <div className="flex flex-wrap gap-4 mb-6">
+        <div className="flex flex-wrap gap-4 mb-6 justify-center">
           {project.additionalImages.map((imgSrc, index) => (
-            <div key={index} className="relative w-200 h-200">
+            <div key={index} className="relative w-[750px] h-[750px]">
               <Image
                 src={imgSrc}
                 alt={`Extra image ${index + 1}`}
                 fill
-                className="object-cover rounded"
+                className="object-contain rounded-lg border border-gray-700"
               />
             </div>
           ))}

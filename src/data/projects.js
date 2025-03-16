@@ -69,7 +69,7 @@ export const projects = [
     shortDescription: "Another project overview...",
     image: "/projects/project1.png",
     overview: "Detailed explanation of Project 2...",
-    additionalImages: [],
+    additionalImages: ["/projects/remapper1.png", "/projects/remapper2.png"],
     videoUrl: "https://www.youtube.com/embed/Q0rsCDELStA",
     codeSnippets: [],
     technologies: ["Python", "FastAPI"],
