@@ -42,7 +42,7 @@ export default function ProjectDetailsPage({ params }) {
       {project.additionalImages?.length > 0 && (
         <div className="flex flex-wrap gap-4 mb-6">
           {project.additionalImages.map((imgSrc, index) => (
-            <div key={index} className="relative w-72 h-44">
+            <div key={index} className="relative w-200 h-200">
               <Image
                 src={imgSrc}
                 alt={`Extra image ${index + 1}`}

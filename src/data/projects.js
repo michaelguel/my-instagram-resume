@@ -40,8 +40,8 @@ export const projects = [
     title: "Cryptocurrency MLOPs",
     shortDescription: "A quick overview...",
     image: "/projects/gecko.png",
-    overview: "This is a longer description or summary...",
-    additionalImages: ["/projects/project1_step1.png", "/projects/project1_step2.png"],
+    overview: "The goal of this project is to develop an MLOps project end to end. I have established the postgresql database and begun ingesting the data from CoinGecko. The next step of this project is to select a data source for out of scope historical prices of bitcoin. After sourcing the historical data, we will begin modeling to predict the next minute move of bitcoin price, either down or up.  ",
+    additionalImages: ["/projects/postgresql.png", "/projects/ingestion.png"],
     videoUrl: "https://www.youtube.com/embed/someVideo",
     codeSnippets: [
       `
